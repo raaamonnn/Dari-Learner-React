@@ -1,0 +1,37 @@
+.footerContainer {
+  position:relative;
+    background-color: #254652;
+    background-image: url('/src/assets/Star\ Pattern.svg');
+    text-align: center;
+  }
+  
+  .footerTitle {
+    font-weight: 1000;
+    font-size: 3rem;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .footerContentSpacing {
+    padding-top: 7vh;
+  }
+  
+  .footerDownload {
+    width: 200px;
+  }
+  .footerInfoContainer {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .footerReserved{
+    color: white;
+  }
+  .footerStyle {
+    text-decoration: none;
+    color: grey;
+  }
+
+  .footerStyle:hover {
+    color: lightgray;
+  }

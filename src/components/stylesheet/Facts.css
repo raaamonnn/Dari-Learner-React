@@ -1,0 +1,98 @@
+@media (min-width: 1px) { 
+  .factsContainer {
+    min-height:100%;
+    background-size:cover;
+    background: white;
+  }
+}
+
+@media (min-width: 992px) {
+  .factsLeftSpacing {
+    width: 50%;
+  }
+
+  .factsContainer {
+    height: 80vh;
+    min-height:100%;
+    background-size:cover;
+    background: white;
+  }
+  
+  .factsRightSpacing {
+    margin-right: 0px;
+  }
+  .factsPositioning {
+    position: absolute;
+    padding-right: 0px;
+  }
+
+  .factsImage {
+    padding: 50px;
+    height: 75vh;
+    width: 100%;
+    margin-left: 0px;
+    border-radius: 9%;
+  }
+}
+
+/* Left Side */
+.factsLeftSpacing {
+  padding-left: 0px!important;
+  background: white;
+  background-color: white!important;
+  position: static;
+}
+
+
+
+/* Right Side */
+.factsRightSpacing {
+  /* margin-right: -40px!important; */
+  background: white!important;
+  background-color: white!important;
+}
+
+.factsTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.factsText {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.factsListContainer {
+  padding-left: 50px;
+  background: white;
+}
+
+.factsItem {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 50px;
+  transition: 1s;
+}
+
+.factsItem:hover {
+  padding-left: 15px;
+}
+
+.factsImageContainer {
+  max-height:50px;
+  max-width:50px;
+  height:auto;
+  width:auto;
+}
+
+.factsIconSpacing {
+  margin-right: 40px;
+}
+
+.factsMosque {
+  padding-left: 15.205px;
+  padding-right: 15.205px;
+}

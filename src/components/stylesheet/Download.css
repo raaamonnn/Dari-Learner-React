@@ -1,0 +1,104 @@
+
+
+@media (min-width: 767px) { 
+    .downloadContainer {
+        height: 75vh;
+        padding-top: 100px;
+        background-color: #254652;
+        background-image: url('/src/assets/Star\ Pattern.svg');
+    }
+    
+    .downloadContentContainer {
+        margin-left: 20%;
+        margin-top: 150px;
+    }
+    
+    .downloadContentContainer > h1 {
+        font-size: 3rem;
+        font-weight: 1000;
+        color: white;
+        margin-bottom: 30px;
+    }
+    
+    .downloadContentContainer > p {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: lightgray;
+    }
+    
+    .downloadPhone {
+        margin-left: 100px;
+        margin-top: 100px;
+        width: 60%;
+        transition: 1s;
+    }
+    
+    .downloadPhone:hover {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767px) { 
+    .downloadContainer {
+        height: 75vh;
+        background-color: #254652;
+        background-image: url('/src/assets/Star\ Pattern.svg');
+    }
+    
+    .downloadContentContainer {
+        margin-left: 20%;
+        margin-top: 20vh;
+    }
+    
+    .downloadContentContainer > h1 {
+        font-size: 1.7rem;
+        font-weight: 1000;
+        color: white;
+        margin-bottom: 30px;
+    }
+    
+    .downloadContentContainer > p {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: lightgray;
+    }
+    
+    .downloadPhone {
+        margin-top: 20vh;
+        width: 80%;
+        transition: 1s;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 575px) { 
+    .downloadContainer {
+        background-color: #254652;
+        background-image: url('/src/assets/Star\ Pattern.svg');
+    }
+    
+    .downloadContentContainer {
+        margin-top: 150px;
+        text-align: center;
+    }
+    
+    .downloadContentContainer > h1 {
+        font-size: 2rem;
+        font-weight: 1000;
+        color: white;
+        margin-bottom: 30px;
+    }
+    
+    .downloadContentContainer > p {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: lightgray;
+    }
+    
+    .downloadPhone {
+        margin-top: 50px;
+        padding-bottom: 50px;
+        width: 60%;
+        transition: 1s;
+        margin-left: 20%;
+    }
+}

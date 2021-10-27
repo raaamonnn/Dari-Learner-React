@@ -1,0 +1,68 @@
+
+
+  @media (min-width: 1px) and (max-width: 767px) {
+    .learnDariContainer {
+      background-color: #254652;
+      background-image: url('/src/assets/Star\ Pattern.svg');
+      text-align: center;
+      padding-bottom: 50px;
+    }
+
+    .learnDariItemSpacing {
+      padding-top: 15vh;
+    }
+    
+    .learnDariText {
+      font-weight: 700;
+      color: white;
+      margin-bottom: 0px;
+    }
+
+    .learnDariDownloadImage {
+      padding-top: 50px;
+      width: 200px
+    }
+
+    .learnDariPhone {
+      width: 80%;
+      transition: 1s;
+    }
+  }
+
+  @media (min-width: 767px) { 
+    .learnDariContainer {
+      height: 100vh;
+      background-color: #254652;
+      background-image: url('/src/assets/Star\ Pattern.svg');
+      text-align: center;
+    }
+
+    .learnDariItemSpacing {
+      padding-top: 30vh;
+    }
+    
+    .learnDariText {
+      font-weight: 1000;
+      font-size: 3rem;
+      color: white;
+      margin-bottom: 0px;
+    }
+
+    .learnDariDownloadImage {
+      padding-top: 50px;
+    }
+
+    .learnDariPhone {
+      width: 80%;
+      transition: 1s;
+    }
+  
+    .learnDariPhone:hover {
+      width: 80%;
+      margin-top: -15vh;
+    }
+  }
+  
+  .learnDariRightItemSpacing {
+    padding-top: 5vh;
+  }

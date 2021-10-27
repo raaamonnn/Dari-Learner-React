@@ -1,0 +1,39 @@
+.contactContainer {
+    padding-top: 10vh;
+    background-color: #254652;
+    background-image: url('/src/assets/Star\ Pattern.svg');
+}
+
+.contentContainerLabelText {
+    color: #f3f3f3;
+}
+
+.contactContentContainer {
+    max-width: 600px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.contactContentContainer > p {
+    color: #f3f3f3;
+    font-size: large;
+}
+
+.contactContentContainer > h1 {
+    color: #f3f3f3;
+}
+
+label {
+    margin-bottom: .5rem;
+}
+
+.form-control {
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    display: block;
+}
+
+textarea {
+    min-height: 200px!important;
+}
