@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;400&display=swap');
 * {
-  font-family: -apple-system,Poppins,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu;
+  font-family: -apple-system, Poppins, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 html, body {
   max-width: 100%;
   overflow-x: hidden;

@@ -14,12 +14,12 @@
     margin-bottom: 15%;
 }
 
-.contactContentContainer > p {
+.contactContentContainer>p {
     color: #f3f3f3;
     font-size: large;
 }
 
-.contactContentContainer > h1 {
+.contactContentContainer>h1 {
     color: #f3f3f3;
 }
 

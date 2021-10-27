@@ -22,7 +22,7 @@ const Contact = () => {
             emailjs.send(serviceId, templateId, templateParams)
                 .then(response => console.log(response))
                 .then(error => console.log(error));
-                
+
             alert("Thank you for your message, we will be in touch in no time!")
             setEmail('');
             setMessage('');
@@ -44,21 +44,21 @@ const Contact = () => {
                         <h1>Contact Us</h1>
                         <p>Hey there! We love to work with our community. Please reach out to us and leave us a message with any problems or suggestions for improvement!:)</p>
                         <p>If you already have a Dari Learner account, please make sure to use that same email.</p>
-                            <div id="inputEmail" role="group" className="form-group pt-3">
-                                <label id="inputEmailLabel" for="inputEmail" className="d-block contentContainerLabelText ">
-                                    Email Address
-                                </label>
-                                <input id="inputEmail" type="email" placeholder="Enter email" required="required" aria-required="true" className="form-control" value={email} onChange={e => setEmail(e.target.value)}></input>
-                            </div>
-                            <div id="inputMessage" role="group" className="form-group">
-                                <label id="inputMessageLabel" for="inputMessage" className="d-block contentContainerLabelText">
-                                    Message
-                                </label>
-                                <textarea id="inputMessage" type="email" placeholder="Enter your Message" required="required" aria-required="true" className="form-control" value={message} onChange={e => setMessage(e.target.value)}></textarea>
-                            </div>
-                            <div className="text-center pt-3">
-                                <button type="submit" className="btn w-50 btn-primary" onClick={submit}>Submit</button>
-                            </div>
+                        <div id="inputEmail" role="group" className="form-group pt-3">
+                            <label id="inputEmailLabel" for="inputEmail" className="d-block contentContainerLabelText ">
+                                Email Address
+                            </label>
+                            <input id="inputEmail" type="email" placeholder="Enter email" required="required" aria-required="true" className="form-control" value={email} onChange={e => setEmail(e.target.value)}></input>
+                        </div>
+                        <div id="inputMessage" role="group" className="form-group">
+                            <label id="inputMessageLabel" for="inputMessage" className="d-block contentContainerLabelText">
+                                Message
+                            </label>
+                            <textarea id="inputMessage" type="email" placeholder="Enter your Message" required="required" aria-required="true" className="form-control" value={message} onChange={e => setMessage(e.target.value)}></textarea>
+                        </div>
+                        <div className="text-center pt-3">
+                            <button type="submit" className="btn w-50 btn-primary" onClick={submit}>Submit</button>
+                        </div>
                     </div>
                 </Row>
             </Container>

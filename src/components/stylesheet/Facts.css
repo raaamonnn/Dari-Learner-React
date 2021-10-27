@@ -1,7 +1,7 @@
-@media (min-width: 1px) { 
+@media (min-width: 1px) {
   .factsContainer {
-    min-height:100%;
-    background-size:cover;
+    min-height: 100%;
+    background-size: cover;
     background: white;
   }
 }
@@ -10,14 +10,12 @@
   .factsLeftSpacing {
     width: 50%;
   }
-
   .factsContainer {
     height: 80vh;
-    min-height:100%;
-    background-size:cover;
+    min-height: 100%;
+    background-size: cover;
     background: white;
   }
-  
   .factsRightSpacing {
     margin-right: 0px;
   }
@@ -25,7 +23,6 @@
     position: absolute;
     padding-right: 0px;
   }
-
   .factsImage {
     padding: 50px;
     height: 75vh;
@@ -36,6 +33,7 @@
 }
 
 /* Left Side */
+
 .factsLeftSpacing {
   padding-left: 0px!important;
   background: white;
@@ -43,9 +41,8 @@
   position: static;
 }
 
-
-
 /* Right Side */
+
 .factsRightSpacing {
   /* margin-right: -40px!important; */
   background: white!important;
@@ -82,10 +79,10 @@
 }
 
 .factsImageContainer {
-  max-height:50px;
-  max-width:50px;
-  height:auto;
-  width:auto;
+  max-height: 50px;
+  max-width: 50px;
+  height: auto;
+  width: auto;
 }
 
 .factsIconSpacing {

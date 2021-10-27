@@ -1,4 +1,3 @@
-
 @media (min-width: 974px) {
   .sneakPeakContainer {
     height: 100vh;
@@ -6,66 +5,56 @@
     /* background-image: url('/src/assets/Background4.png'); */
     text-align: center;
   }
-
   .sneakPeakContentContainer {
     background-color: #F3F3F3;
     /* background-image: url('/src/assets/Background2.png'); */
     text-align: left;
   }
-
   .sneakPeakPhone {
     margin-left: 60%;
     transform: rotate(-45deg);
     width: 80%;
     transition: 1s;
   }
-
   .sneakPeakPhone:hover {
     transform: rotate(0deg);
     margin-left: 20%;
     margin-top: 100px;
   }
-
   .sneakPeakContentTitle {
     font-size: 2rem;
     font-weight: 700;
   }
-  
   .sneakPearkContentSubTitle {
     font-size: 3.75rem;
     font-weight: 900;
   }
-  
   .sneakPeakContentText {
     font-size: 1.5rem;
     font-weight: 700;
     color: grey;
   }
-
   .sneakPeakFirst {
     margin-top: 15vh;
   }
-  
   .sneakPeakSecond {
     margin-top: 20vh;
   }
 }
 
-@media (min-width: 575px) and (max-width: 974px) { 
+@media (min-width: 575px) and (max-width: 974px) {
   .sneakPeakContainer {
     height: 100vh;
     background-color: #F3F3F3;
     /* background-image: url('/src/assets/Background4.png'); */
     text-align: center;
   }
-
   .sneakPeakContentContainer {
     /* padding-left: 20px; */
     background-color: #F3F3F3;
     /* background-image: url('/src/assets/Background2.png'); */
     text-align: left;
   }
-
   .sneakPeakPhone {
     margin-left: 80%;
     transform: rotate(-45deg);
@@ -73,33 +62,27 @@
     transition: 1s;
     margin-top: 300px;
   }
-
   .sneakPeakPhone:hover {
     transform: rotate(0deg);
     margin-left: 20%;
     margin-top: 250px;
   }
-
   .sneakPeakContentTitle {
     font-size: 2rem;
     font-weight: 700;
   }
-  
   .sneakPearkContentSubTitle {
     font-size: 2.5rem;
     font-weight: 900;
   }
-  
   .sneakPeakContentText {
     font-size: 1.5rem;
     font-weight: 700;
     color: grey;
   }
-
   .sneakPeakFirst {
     margin-top: 15vh;
   }
-  
   .sneakPeakSecond {
     margin-top: 10vh;
   }
@@ -110,39 +93,32 @@
     font-size: 1.5rem;
     font-weight: 700;
   }
-  
   .sneakPearkContentSubTitle {
     font-size: 2rem;
     font-weight: 900;
   }
-  
   .sneakPeakContentText {
     font-size: 1.4rem;
     font-weight: 700;
     color: grey;
   }
-
   .sneakPeakContainer {
     background-color: #F3F3F3;
     /* background-image: url('/src/assets/Background4.png'); */
     text-align: center;
   }
-
   .sneakPeakContentContainer {
     /* padding-left: 20px; */
     background-color: #F3F3F3;
     /* background-image: url('/src/assets/Background2.png'); */
     text-align: left;
   }
-
   .sneakPeakFirst {
     margin-top: 10vh;
   }
-  
   .sneakPeakSecond {
     margin-top: 10vh;
   }
-
   .sneakPeakPhone {
     width: 60%;
     margin-left: 20%;
