@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap'
 import { Row } from 'react-bootstrap'
 import { Col } from 'react-bootstrap'
 import downloadImage from '../../assets/Download.png'
-import phone from '../../assets/PhoneQuiz.png'
+import phone from '../../assets/PhoneSectionCards.png'
 const LearnDari = () => {
     return (
         <div className="learnDariContainer">
@@ -20,7 +20,7 @@ const LearnDari = () => {
                         <div className="learnDariRightItemSpacing">
                             <h1 className="learnDariText">Learn &amp; Practice</h1>
                             <h1 className="learnDariText">Dari</h1>
-                            <a href="/#appStore"> <img src={downloadImage} className="learnDariDownloadImage" alt="Download Link"></img> </a>
+                            <a href="https://apps.apple.com/us/app/dari-learner/id1582253357#?platform=iphone"> <img src={downloadImage} className="learnDariDownloadImage" alt="Download Link"></img> </a>
                         </div>
                     </Col>
 

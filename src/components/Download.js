@@ -2,7 +2,7 @@ import './stylesheet/Download.css'
 import { Container } from 'react-bootstrap'
 import { Row } from 'react-bootstrap'
 import { Col } from 'react-bootstrap'
-import phone from '../assets/PhoneProfil.png'
+import phone from '../assets/PhoneQuiz.png'
 const Download = () => {
     return (
         <div className="downloadContainer">

@@ -16,7 +16,9 @@ const Facts = () => {
                 <div className="factsRightSpacing">
                     <Row className="factsRightSpacing ">
                         <Col sm={6} className="factsLeftSpacing">
+                        <a href="https://www.vecteezy.com/free-vector/moslem" target="_blank" rel="noopener noreferrer">
                             <img src={orientImage} alt="Download Link" className="factsImage d-none d-lg-block"></img>
+                        </a>
                         </Col>
                         <Col lg={6} className="factsRightSpacing">
                             <h1 className="factsTitle">Dari is ...</h1>

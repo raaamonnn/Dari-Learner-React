@@ -13,7 +13,7 @@ const Footer = () => {
                     <Col className="">
                         <div className="footerContentSpacing">
                             <h1 className="footerTitle">Available Now</h1>
-                            <a href="/#appStore"> <img src={downloadImage} className="footerDownload" alt="Download Link"></img> </a>
+                            <a href="https://apps.apple.com/us/app/dari-learner/id1582253357#?platform=iphone"> <img src={downloadImage} className="footerDownload" alt="Download Link"></img> </a>
                         </div>
                     </Col>
                 </Row>

@@ -27,7 +27,7 @@
         transition: 1s;
     }
     .downloadPhone:hover {
-        margin-top: 50px;
+        margin-top: 20px;
     }
 }
 
@@ -53,7 +53,7 @@
         color: lightgray;
     }
     .downloadPhone {
-        margin-top: 20vh;
+        margin-top: 15vh;
         width: 80%;
         transition: 1s;
     }

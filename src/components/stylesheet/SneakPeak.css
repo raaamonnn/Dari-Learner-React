@@ -11,10 +11,11 @@
     text-align: left;
   }
   .sneakPeakPhone {
-    margin-left: 60%;
-    transform: rotate(-45deg);
+    margin-left: 50%;
+    margin-top: 100px;
+    transform: rotate(-35deg);
     width: 80%;
-    transition: 1s;
+    transition: 1.5s;
   }
   .sneakPeakPhone:hover {
     transform: rotate(0deg);
