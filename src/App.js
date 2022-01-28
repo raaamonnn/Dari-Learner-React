@@ -5,7 +5,6 @@ import Contact from "./components/Contact";
 import Download from "./components/Download";
 import Terms from "./components/Terms";
 import Privacy from "./components/Privacy";
-
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
 function App() {
