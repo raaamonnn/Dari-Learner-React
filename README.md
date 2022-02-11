@@ -1,4 +1,11 @@
 # [Dari Learner React](https://darilearner.com/)
+## Video
+<p align="center">
+  <a href="http://www.youtube.com/watch?feature=player_embedded&v=C4jrGsz_XH4
+  " target="_blank"><img src="https://img.youtube.com/vi/C4jrGsz_XH4/0.jpg" 
+  alt="Dari Learner Overview" width="600" height="400" border="10" /></a>
+</p>
+
 
 ## Available Scripts
 
